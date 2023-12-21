@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --cor-primaria: #fff;
+    --cor-secundaria: #372772;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+    font-family: var(--font-family);
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1em;
+    font-family: var(--font-family);
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.box{
+    border: 2px solid var(--cor-secundaria);
+    display: inline-block;
+    font-size: 2em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.botao-jogar{
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--cor-secundaria);
+    border-radius: 5px;
+    margin-top: 20px;
+    color: var(--cor-primaria);
+    font-family: var(--font-family);
+}
